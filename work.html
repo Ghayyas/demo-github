@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+          <script>
+              var name = prompt("enter your name");
+                alert("enter 1 for addition \n " +
+                      "enter 2 for subtraction \n" +
+                      "enter 3 for multiplication \n" +
+                      "enter 4 for division \n" +
+                      "enter 5 for modulus \n" +
+                      "enter 6 to convert centigrade into fahrenheit \n" +
+                      "enter 7 to convert fahrenheit into centigrade"  );
+              var select = prompt("select from 1 to 7 to perform task");
+              var a;
+              var b;
+              if (select < 1)
+              {
+                  alert("please select from 1 to 7");
+              }
+              if (select > 7)
+              {
+                  alert("please select from 1 to 7");
+              }
+              if (isNaN(select))
+              {
+                  alert("please enter a number");
+              }
+        document.write(name+ "\n")
+              if (select = 1)
+              {
+                    a = prompt("enter first number");
+                    b = prompt("enter second number");
+                  document.write("addtition is"+ a + b)
+              }
+          </script>
+
+</body>
+</html>
